@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+}
+
+.profile-image {
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #2c3e50;
+}
+
+.profile-info h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #2c3e50;
+    border-radius: 4px;
+}
+
+.section h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+.education-item,
+.certification-item,
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.certification-item {
+    padding-left: 10px;
+}
+
+.education-item h3,
+.certification-item h3 {
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.education-item .school {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.education-item .degree {
+    font-style: italic;
+    color: #555;
+}
+
+.education-item ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.education-item li {
+    margin: 5px 0;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skill-category {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
