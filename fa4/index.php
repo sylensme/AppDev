@@ -1,4 +1,4 @@
-<?php require ('./component/header.php'); ?>
+<?php require ('header.php'); ?>
 
 <style>
 body {

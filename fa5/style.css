@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    max-width: 1000px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.header h1 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.activity-card {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activity-card h2 {
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.activity-card p {
+    color: #555555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-get-post {
+    background-color: #4a6fa5;
+}
+
+.btn-cookies {
+    background-color: #4a6fa5;
+}
+
+.btn-sessions {
+    background-color: #4a6fa5;
+}
+
+form p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d5d8a;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
